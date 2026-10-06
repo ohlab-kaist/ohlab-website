@@ -1,0 +1,15 @@
+OH LAB v3 source notes
+Verified public institutional sources used for factual entries:
+- KAIST Pure — Jieun Oh profile and research outputs:
+  https://pure.kaist.ac.kr/en/persons/jieun-oh/
+- KAIST GSMSE faculty/lab announcement:
+  https://gsmse.kaist.ac.kr/boards/view/board_news/12793
+- KAIST News — 2026 Science Immunology glioma study:
+  https://www.kaist.ac.kr/newsen/html/news/
+
+Still needed from the lab for a fully launch-ready People page:
+- current full roster, exact English names and positions
+- preferred portraits / group photo
+- any microscopy images the lab owns and wants to feature
+
+No third-party lab photos were inserted because they could depict unrelated researchers and may carry reuse restrictions.
