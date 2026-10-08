@@ -197,3 +197,6 @@ footer{background:#101b19;color:#b9c3c0;padding:50px 6vw;display:grid;grid-templ
   .profile-layout {grid-template-columns:minmax(185px,235px) minmax(0,1fr);gap:3vw;}
   .profile-section p {max-width:none;font-size:15px;}
 }
+
+/* v4.1.22: keep captions aligned when an event has only one photo. */
+.photo-controls-placeholder{pointer-events:none}
