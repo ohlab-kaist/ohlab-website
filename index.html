@@ -9,9 +9,9 @@
 <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-<header class="nav"><a class="brand" href="index.html"><span>OH</span> LAB</a><nav>
+<header class="nav"><a class="brand" href="index.html"><span>OH</span> LAB</a><nav id="site-navigation">
 <a href="research.html">Research</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="news.html">News</a><a href="photos.html">Photos</a><a class="pill" href="join.html">Join us</a>
-</nav></header>
+</nav><button aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation menu" class="mobile-menu-toggle" type="button">☰</button></header>
 <main id="top">
 <section class="hero">
 <div class="hero-copy">
@@ -20,7 +20,7 @@
 <p class="lead">We investigate how humoral immunity is established, maintained and recalled in tissues during infection, vaccination, and across diverse disease settings.</p>
 <div class="actions"><a class="button" href="research.html">Explore our research</a><a class="textlink" href="join.html">Join the lab →</a></div>
 </div>
-<div aria-label="Illustration of B cell immunity in tissue" class="hero-art hero-infographic"><img src="images/hero-infographic.webp" alt="Minimalist infographic of B cells, antibodies and tissue microenvironment"/></div>
+<div aria-label="Illustration of B cell immunity in tissue" class="hero-art hero-infographic"><img alt="Minimalist infographic of B cells, antibodies and tissue microenvironment" src="images/hero-infographic.webp"/></div>
 </section>
 <section class="data-strip"><div><b>B cell biology</b><span>HUMORAL IMMUNITY</span></div><div><b>Barrier tissues</b><span>LUNG · SKIN · MUCOSA</span></div><div><b>From mechanism to patients</b><span>INFECTION · VACCINATION · DISEASE</span></div></section>
 <section class="statement">
@@ -64,4 +64,4 @@
 </section>
 </main>
 <footer><div><b>OH LAB</b><span>Laboratory of Skin &amp; Mucosal Immunology</span></div><div>Graduate School of Medical Science &amp; Engineering · KAIST<br/>193 Munji-ro, Yuseong-gu, Daejeon 34051, Republic of Korea</div><div>© 2026 OH Lab</div></footer>
-</body></html>
+<script>(function(){const b=document.querySelector('.mobile-menu-toggle'),n=document.getElementById('site-navigation');if(!b||!n)return;function close(){n.classList.remove('menu-open');b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open navigation menu');b.textContent='☰'}b.addEventListener('click',()=>{const open=!n.classList.contains('menu-open');n.classList.toggle('menu-open',open);b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');b.textContent=open?'✕':'☰'});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});document.addEventListener('click',e=>{if(!e.target.closest('header.nav'))close()});n.querySelectorAll('a').forEach(a=>a.addEventListener('click',close))})();</script></body></html>

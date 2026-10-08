@@ -1,0 +1,1 @@
+v4.1.14: Added 40 event-sorted photographs to Photos page with 12 responsive carousels. Other pages unchanged. Upload all extracted files/folders to repository root, preserving images/photos subfolders.
